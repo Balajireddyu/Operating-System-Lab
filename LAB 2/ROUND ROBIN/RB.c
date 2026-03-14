@@ -19,7 +19,7 @@ int main() {
     for(int j=0;j<n;j++){
             printf("Process %d \n",j+1);
         scanf("%d%d",&at[j],&bt[j]);
-        rt[i]=bt[i];
+        rt[j]=bt[j];
     }
 
     for(int i = 0; i < n; i++) {
